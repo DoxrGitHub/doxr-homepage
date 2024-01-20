@@ -1,0 +1,34 @@
+/* DARK MODE STYLES */
+
+body {
+  background-color: rgb(17, 18, 18);
+  color: rgb(203, 208, 210);
+}
+
+.card {
+ box-shadow: 0 0.2rem 0.5rem 0 #86a249;
+ background-color: #1c1c1c;
+ border-radius: 2rem;
+}
+
+.card img {
+  border-radius: 2rem;
+}
+
+.card a {
+  color: rgb(203, 208, 210);
+}
+
+.card:hover {
+  background-color: #c6ff4d;
+  box-shadow: 0 10px 2rem 0 rgba(166, 255, 0, 0.5);
+  color: #333333;
+}
+
+.card:hover a {
+  color: #333333;
+}
+
+tr:nth-child(even) {
+  background-color: #333333;
+}
