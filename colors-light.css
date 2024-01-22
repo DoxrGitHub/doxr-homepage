@@ -1,27 +1,39 @@
 /* LIGHT MODE STYLES */
 
 body {
-  background-color: #f5f5f5;
-  color: #333;
+ background-color: #f5f5f5;
+ color: #333;
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  border-radius: 1rem;
+ transition: all 0.2s;
+ position: relative;
+ cursor: pointer;
+ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ border-radius: 1rem;
+ backdrop-filter: blur(1rem);
 }
 
 .card img {
-  border-radius: 1rem;
+ border-radius: 1rem;
 }
 
 .card a {
-  color: #333;
+ color: #333;
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+ background-color: #dddddd;
+}
+
+.card:hover:nth-child(even) {
+  transform: scale(1.04) rotate(1deg);
+}
+
+.card:hover:nth-child(odd) {
+  transform: scale(1.04) rotate(-1deg);
 }

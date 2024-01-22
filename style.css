@@ -39,6 +39,7 @@ code {
 .bounce {
   animation: bounce2 2s ease;
 }
+
 @keyframes bounce2 {
   0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
   40% {transform: translateY(-30px);}
@@ -109,7 +110,7 @@ a {
 }
 
 .background-text h1 {
- font-size: 40vw;
+ font-size: 50vw;
  filter: opacity(0.2);
  z-index: -1;
  font-family: 'Bebas';
